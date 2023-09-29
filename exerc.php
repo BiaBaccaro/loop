@@ -6,29 +6,25 @@
     <title>Loop</title>
 </head>
 <body>
-    <?php
 
-    //variaveis
-    $num = 4;
-    $limite = 30;
+<?php
 
-    while ($limite <= 30);
+$contador = 4; // inicia o contador no 4
 
-    $num = 4; //inicia o contador 4
-    
-    for ($i = 1; $i <= 30; $i++) {
-        //verifica se o contador atingiu 24
-        if ($contador == 24) {
-            break;
-        }
-        
-        echo "Contador: $contador<br>";
-    
-        //contador em 2
-        $contador += 2;
+for ($i = 1; $i <= 30; $i++) {
+    // verifica se o contador atingiu 24
+    if ($contador == 26) {
+        break;
     }
     
-    ?>
-    
+    echo "$contador<br>";
+
+    // contador de 2 e 2
+    $contador += 2;
+}
+
+?>
+
+
 </body>
 </html>
